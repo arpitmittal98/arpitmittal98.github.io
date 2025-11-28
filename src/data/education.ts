@@ -2,39 +2,39 @@ import type { Education } from '../types';
 
 export const education: Education[] = [
   {
-    id: "gatech",
+    id: "ubuffalo",
     degree: "M.S., Computer Science",
-    institution: "Georgia Institute of Technology",
-    location: "Atlanta, USA",
-    startDate: "2023-08-23",
-    endDate: "2025-05-02",
-    gpa: "3.81/4.0",
+    institution: "University at Buffalo",
+    location: "Buffalo, NY, USA",
+    startDate: "Aug 2024",
+    endDate: "Dec 2025 (expected)",
+    gpa: "4.0/4.0",
     courses: [
-      "Graduate Algorithms",
+      "Algorithms",
       "Machine Learning", 
       "Deep Learning",
-      "Advanced Natural Language Processing",
+      "Natural Language Processing",
       "Computer Vision",
-      "Systems for Machine Learning",
-      "Enterprise Cybersecurity Management"
+      "Operating Systems",
+      "Data Intensive Computing"
     ],
-    url: "https://www.gatech.edu/about/rankings",
-    institutionLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0BING3ijIAll66zEhslXgd4V_hsGC8RlGQ&s"
+    url: "https://engineering.buffalo.edu/computer-science-engineering.html",
+    institutionLogo: "public/images/104-UB-Stacked-RGB-Blue.png"
   },
   {
     id: "bits",
-    degree: "B.E., Electronics and Instrumentation Engineering; M.Sc. Physics (dual)",
+    degree: "B.E., Mechanical Engineering; M.Sc. Biological Sciences (dual)",
     institution: "Birla Institute of Technology and Science, Pilani",
     location: "India",
-    startDate: "2016-08-01",
-    endDate: "2021-07-01",
-    gpa: "8.44/10.0",
+    startDate: "Aug 2016",
+    endDate: "May 2021",
+    gpa: "8.3/10.0",
     courses: [
-      "Object Oriented Programming",
-      "Operating Systems",
-      "Neural Networks and Fuzzy Logic",
-      "Pattern Recognition",
-      "Microprocessor Programming and Interfacing",
+      "Calculus and Linear Algebra",
+      "Optimization",
+      "Probability and Statistics",
+      "Control Systems",
+      "Robotics",
       "Computer Programming"
     ],
     url: "https://www.bits-pilani.ac.in/news/bits-pilani-raises-the-bar-in-university-rankings/",

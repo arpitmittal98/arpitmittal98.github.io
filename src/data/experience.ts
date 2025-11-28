@@ -3,10 +3,10 @@ import type { Experience } from '../types';
 export const experience: Experience[] = [
   {
     id: "nutanix-mts2",
-    position: "Member of Technical Staff 2",
+    position: "Member of Technical Staff Inten",
     company: "Nutanix, Inc.",
     location: "San Jose, CA, USA",
-    startDate: "2025-06-23",
+    startDate: "May 2025",
     endDate: "Present",
     current: true,
     description: [
@@ -17,46 +17,32 @@ export const experience: Experience[] = [
     companyLogo: "https://www.sansonetworks.com/images/products/img-nutanix.jpg"
   },
   {
-    id: "wellsfargo-se",
-    position: "Software Engineer",
+    id: "wellsfargo-ds",
+    position: "Data Scientist (Quant)",
     company: "Wells Fargo",
-    location: "Hyderabad, India",
-    startDate: "2022-08-01",
-    endDate: "2023-07-26",
+    location: "Bangalore, India",
+    startDate: "July 2021",
+    endDate: "July 2024",
     description: [
-      "Contributed to development of an enterprise business process management platform, streamlining 180+ banking operations",
-      "Designed & developed a Kafka-based event messaging solution that sends 200000+ msgs/day of business data to warehouses",
-      "Programmed and integrated APIs to securely insert, search and retrieve documents from enterprise content management platform",
-      "Successfully led a data schema migration drive, collaborating with multiple business federations to plan and manage deliverables"
+      "Built a prototype LLM-based document compliance tracker using Llama-2, reducing manual review time by 60%",
+      "Automated model-validation workflows via FastAPI and HTML, cutting TAT by 65% and saving $500k annually",
+      "Implemented a gender debiasing algorithm for word2vec and BERT embeddings within customer-facing NLP models, achieving a 25% reduction in gender bias",
+      "Developed and tested ML models to minimize model risk in marketing, credit and fraud domains"
     ],
     companyUrl: "https://www.wellsfargo.com/about/",
     companyLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png"
   },
   {
-    id: "wellsfargo-pa",
-    position: "Program Associate (Software)",
-    company: "Wells Fargo",
-    location: "Hyderabad, India",
-    startDate: "2021-07-26",
-    endDate: "2022-07-31",
+    id: "endovision",
+    position: "Machine Learning Intern",
+    company: "Endovision AI",
+    location: "Remote, Hong Kong",
+    startDate: "Jan 2021",
+    endDate: "May 2021",
     description: [
-      "Developed a utility to dynamically resolve and assign tasks to enterprise IAM groups based on task requirements",
-      "Engineered a data redaction service to redact PII information from business workflows with an accuracy of 99.99%"
-    ],
-    companyUrl: "https://www.wellsfargo.com/about/",
-    companyLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png"
-  },
-  {
-    id: "inria",
-    position: "Research Intern",
-    company: "Inria",
-    location: "Sophia Antipolis, France",
-    startDate: "2021-02-01",
-    endDate: "2021-07-26",
-    description: [
-      "Devised a novel technique for person-independent eye gaze estimation by seamless extraction and fusion of key physical features",
-      "Developed numerous deep learning models to remove subject bias by utilizing anatomical features of the eye from facial landmarks",
-      "Obtained best mean 3D angular error of 4.27 degrees, achieving state-of-the-art result and reducing the error by 20% from previous best"
+      "Strengthened ETL pipelines and streamlined end-to-end deployment of vision models for medical imaging",
+      "Built a real-time JavaScript GUI for doctors to visualize model predictions during endoscopy",
+      "Enhanced YOLOv5 detection system with augmentation and ensembling in PyTorch, achieving mAP over 75%"
     ],
     companyLogo: "https://avatars.githubusercontent.com/u/2951919?s=280&v=4",
     companyUrl: "https://www.inria.fr/en/stars"

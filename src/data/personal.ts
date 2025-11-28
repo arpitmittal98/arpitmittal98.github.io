@@ -1,14 +1,14 @@
 import type { PersonalInfo } from '../types';
 
 export const personal: PersonalInfo = {
-  name: "Neelabh Sinha",
-  title: "Machine Learning Engineer",
-  bio: "I am an <strong>AI Engineer</strong> by profession and hobby. Currently, I am working as a <strong>Member of Technical Staff at Nutanix</strong>, where I develop <strong>AI agents</strong> that enhance enterprise AI adoption. I hold a <strong>Master's degree in Computer Science</strong> with a specialization in Machine Learning from <strong>Georgia Tech</strong>, where I was advised by Prof. Alan Ritter on innovative approaches to improving text summarization with LLMs. I also did multiple other projects on <strong>inference optimization</strong> and application of LLMs and VLMs, and was <strong>Teaching Assistant</strong> for courses like Natural Language Processing and Deep Learning. In the past, I also worked as a software engineer at <strong>Wells Fargo</strong>, building scalable backend systems and event streaming services for enterprise applications. My research background also includes deep learning techniques for multimodal eye gaze estimation at <strong>INRIA</strong> under Dr. François Brémond, and machine learning solutions for financial expenses forecasting at <strong>Thomson Reuters</strong>. Outside of technology, I enjoy <strong>Cricket and Formula Racing</strong>, balancing my technical interests with the thrill of sports.",
+  name: "Arpit Mittal",
+  title: "Machine Learning Engineer Intern @ Nutanix | M.S. Computer Science @ SUNY Buffalo",
+  bio: "I am an <strong>AI Engineer</strong> by profession and hobby. Currently, I am working as a <strong>Machine Learning Enginner Intern at Nutanix</strong>, where I am working on automation of <strong>AI Agents for RCA</strong> that help in reducing triage time and downtime. I am currently pursuing my <strong>Masters in Computer Science</strong> from <strong>SUNY Buffalo</strong>. I have a strong passion for Generative AI, NLP, data science and Computer Vision.,
   avatar: "/images/avatar.jpeg",
   interests: [
     "Generative AI",
     "Natural Language Processing", 
-    "Computer Vision",
+    "Data Science",
     "Back-end Development"
   ],
   currentFocus: "Currently working as a <strong>Member of Technical Staff</strong> at Nutanix, developing LLM-powered AI agents that enhance enterprise AI adoption. My work involves creating intelligent systems that can understand and review enterprise-level code.",
@@ -16,31 +16,25 @@ export const personal: PersonalInfo = {
   social: [
     {
       platform: "email",
-      url: "mailto:neelabhsinha97@gmail.com",
+      url: "mailto:mittalarpit98@gmail.com",
       icon: "email",
       label: "E-mail Me"
     },
     {
       platform: "linkedin",
-      url: "https://www.linkedin.com/in/neelabh-sinha/",
+      url: "https://www.linkedin.com/in/arpitmittal/",
       icon: "linkedin",
       label: "LinkedIn"
     },
     {
       platform: "github",
-      url: "https://github.com/neelabhsinha",
+      url: "https://github.com/arpitmittal98",
       icon: "github",
       label: "GitHub"
     },
     {
-      platform: "scholar",
-      url: "https://scholar.google.com/citations?user=DJTCefIAAAAJ",
-      icon: "school",
-      label: "Google Scholar"
-    },
-    {
       platform: "resume",
-      url: "https://drive.google.com/file/d/1DA2jXDInpLGGd10W_bJ391YVGgFOBfFx/view?usp=share_link",
+      url: "https://drive.google.com/file/d/1N16Qrvk_SATJGFDgLYvtSn-v6YTwqI8f/view?usp=sharing",
       icon: "description",
       label: "Resume"
     }
