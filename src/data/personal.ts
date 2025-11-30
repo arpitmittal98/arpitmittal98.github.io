@@ -4,7 +4,7 @@ export const personal: PersonalInfo = {
   name: "Arpit Mittal",
   title: "Machine Learning Engineer Intern @ Nutanix | M.S. Computer Science @ SUNY Buffalo",
   bio: "I am an <strong>AI Engineer</strong> by profession and hobby. Currently, I am working as a <strong>Machine Learning Enginner Intern at Nutanix</strong>, where I am working on automation of <strong>AI Agents for RCA</strong> that help in reducing triage time and downtime. I am currently pursuing my <strong>Masters in Computer Science</strong> from <strong>SUNY Buffalo</strong>. I have a strong passion for Generative AI, NLP, data science and Computer Vision.",
-  avatar: "/images/avatar.jpeg",
+  avatar: "/avatar.jpeg",
   interests: [
     "Generative AI",
     "Natural Language Processing", 

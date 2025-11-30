@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website built with React, TypeScript, an
 
 ## 🚀 Live Demo
 
-Visit the live website: [neelabhsinha.github.io](https://neelabhsinha.github.io)
+Visit the live website: [arpitmittal98.github.io](https://arpitmittal98.github.io)
 
 ## 🛠️ Tech Stack
 
@@ -276,8 +276,8 @@ const fadeInUp = {
 
 ```bash
 # Clone the repository
-git clone https://github.com/neelabhsinha/neelabhsinha.github.io.git
-cd neelabhsinha.github.io
+git clone https://github.com/arpitmittal98/arpitmittal98.github.io.git
+cd arpitmittal98.github.io
 
 # Install dependencies
 npm install
@@ -337,7 +337,6 @@ The deployment is handled by `.github/workflows/deploy.yml`:
 
 ### ESLint Configuration
 - **eslint.config.js**: Linting rules for code quality
-- **.eslintignore**: Files to exclude from linting
 
 ## 📊 Performance Optimization
 
@@ -345,14 +344,6 @@ The deployment is handled by `.github/workflows/deploy.yml`:
 - **Image Optimization**: Optimized images for web
 - **Bundle Analysis**: Use `npm run build` to see bundle size
 - **Lazy Loading**: Components load as needed
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -367,11 +358,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Contact
 
-- **Website**: [neelabhsinha.github.io](https://neelabhsinha.github.io)
-- **GitHub**: [@neelabhsinha](https://github.com/neelabhsinha)
-- **LinkedIn**: [Neelabh Sinha](https://linkedin.com/in/neelabhsinha)
+- **Website**: [arpitmittal98.github.io](https://arpitmittal98.github.io)
+- **GitHub**: [@arpitmittal98](https://github.com/arpitmittal98)
+- **LinkedIn**: [Arpit Mittal](https://linkedin.com/in/arpitmittal98)
+- **Email**: mittalarpit98@gmail.com
 
 ---
 
 **Built with ❤️ using React, TypeScript, and Vite**
->>>>>>> 294acac (Initial commit of custom portfolio template)
