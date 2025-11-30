@@ -19,7 +19,7 @@ export const education: Education[] = [
       "Data Intensive Computing"
     ],
     url: "https://engineering.buffalo.edu/computer-science-engineering.html",
-    institutionLogo: "public/images/104-UB-Stacked-RGB-Blue.png"
+    institutionLogo: "/images/104-UB-Stacked-RGB-Blue.png"
   },
   {
     id: "bits",

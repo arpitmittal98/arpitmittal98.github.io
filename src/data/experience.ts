@@ -17,6 +17,20 @@ export const experience: Experience[] = [
     companyLogo: "https://www.sansonetworks.com/images/products/img-nutanix.jpg"
   },
   {
+    id: "gra",
+    position: "Graduate Research Assistant",
+    company: "Cube Lab, University at Buffalo",
+    location: "Buffalo, NY, USA",
+    startDate: "Feb 2025",
+    endDate: "May 2025",
+    description: [
+      "Designing methodologies to identify and mitigate biases in textual data using NLP methods, agent-based strategies and socio-cognitive theories",
+      "Optimized data pipeline by iteratively masking text attributes to assess their impact on gender prediction accuracy"
+    ],
+    companyLogo: "/images/104-UB-Stacked-RGB-Blue.png",
+    companyUrl: "https://cse.buffalo.edu/cubelab/"
+  },
+  {
     id: "wellsfargo-ds",
     position: "Data Scientist (Quant)",
     company: "Wells Fargo",
@@ -45,34 +59,20 @@ export const experience: Experience[] = [
       "Enhanced YOLOv5 detection system with augmentation and ensembling in PyTorch, achieving mAP over 75%"
     ],
     companyLogo: "https://avatars.githubusercontent.com/u/2951919?s=280&v=4",
-    companyUrl: "https://www.inria.fr/en/stars"
+    companyUrl: "https://endovisionai.com/"
   },
   {
-    id: "thomson-reuters",
-    position: "Technical Intern",
-    company: "Thomson Reuters",
-    location: "Hyderabad, India",
-    startDate: "2020-08-26",
-    endDate: "2020-12-23",
+    id: "iitb",
+    position: "Summer Research Intern",
+    company: "Indian Institute of Technology, Bombay",
+    location: "Mumbai, India",
+    startDate: "May 2019",
+    endDate: "Jul 2019",
     description: [
-      "Successfully programmed full-stack of a web portal responsible for tracking projects and maintaining a hierarchical user access",
-      "Also implemented a machine learning model for time-series forecasting of monthly expenses of different business units of the organization",
-      "Achieved an accuracy of 94.5% on overall expenses and 85.12% on individual business units on a test set of 4th quarter of 2020"
-    ],
-    companyLogo: "https://fiu-original.b-cdn.net/fontsinuse.com/use-images/51/51197/51197.png",
-    companyUrl: "https://www.thomsonreuters.com/en/about-us"
-  },
-  {
-    id: "rapha-medic",
-    position: "Software Development Intern",
-    company: "Rapha Medic Pvt. Ltd.",
-    location: "Hyderabad, India",
-    startDate: "2020-06-01",
-    endDate: "2020-07-31",
-    description: [
-      "Developed full-stack of a native mobile application capable of providing end-to-end medical services to users",
-      "Implemented the front-end using Angular and Ionic Framework, and back-end using Express.js and Spring Boot",
-      "Integrated video conferencing service using Twilio, and live chat using web sockets to allow seamless interaction of users with medical experts"
+      "Improved the efficiency of the YOLO Object Detection Algorithm.",
+      "Optimized the algorithm to work in Real-Time for Car Detection."
     ]
+    companyUrl: "https://www.iitb.ac.in/en/",
+    companyLogo: "https://en.wikipedia.org/wiki/IIT_Bombay#/media/File:Indian_Institute_of_Technology_Bombay_Logo.svg"
   }
 ];

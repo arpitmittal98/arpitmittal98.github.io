@@ -22,7 +22,7 @@ export const personal: PersonalInfo = {
     },
     {
       platform: "linkedin",
-      url: "https://www.linkedin.com/in/arpitmittal/",
+      url: "https://www.linkedin.com/in/arpitmittal98/",
       icon: "linkedin",
       label: "LinkedIn"
     },
