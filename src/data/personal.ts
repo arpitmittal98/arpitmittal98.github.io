@@ -13,7 +13,7 @@ export const personal: PersonalInfo = {
     "Data Science",
     "Backend Development"
   ],
-  currentFocus: "Currently working as an <strong>ML Engineer Intern at Nutanix</strong>, focusing on applied AI — including LLMs, RAG, intelligent automation, and scalable ML infrastructure for real-world enterprise problems."
+  currentFocus: "Currently working as an <strong>ML Engineer Intern at Nutanix</strong>, focusing on applied AI — including LLMs, RAG, intelligent automation, and scalable ML infrastructure for real-world enterprise problems.",
   //currentFocus: "Currently working as a <strong>Member of Technical Staff</strong> at Nutanix, developing LLM-powered AI agents that enhance enterprise AI adoption. My work involves creating intelligent systems that can understand and review enterprise-level code.",
   hobbies: "Beyond technology, I'm passionate about travelling, road trips and watching <strong>Formula 1</strong>. I also enjoy exploring new cuisines and experimenting with cooking.",
   social: [

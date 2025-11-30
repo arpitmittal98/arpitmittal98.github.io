@@ -8,6 +8,7 @@ import {
   IconButton,
   Stack,
   useTheme,
+  Button,
 } from '@mui/material';
 import {
   Email,
@@ -341,6 +342,39 @@ const ContactSection: React.FC<ContactProps> = ({ personal, contact }) => {
                   />
                 </Box>
               </Card>
+              
+              {/* Download Resume Button */}
+              <Box sx={{ textAlign: 'center', mt: 3 }}>
+                <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                  If the resume is not visible, kindly use the download button below to view it.
+                </Typography>
+                <Button
+                  component="a"
+                  href={personal.social.find(s => s.platform === 'resume')?.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                  variant="contained"
+                  sx={{
+                    backgroundColor: theme.palette.mode === 'dark' ? '#424242' : '#616161',
+                    color: 'white',
+                    px: 4,
+                    py: 1.5,
+                    borderRadius: 2,
+                    fontSize: '0.95rem',
+                    fontWeight: 500,
+                    textTransform: 'none',
+                    '&:hover': {
+                      backgroundColor: theme.palette.mode === 'dark' ? '#303030' : '#424242',
+                      transform: 'translateY(-2px)',
+                      boxShadow: theme.shadows[8],
+                    },
+                    transition: 'all 0.3s ease',
+                  }}
+                >
+                  Download Resume
+                </Button>
+              </Box>
             </Box>
           </motion.div>
         </motion.div>
