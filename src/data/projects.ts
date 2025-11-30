@@ -54,6 +54,23 @@ export const projects: Project[] = [
     ]
   },
   {
+    id: "iiith-robotics",
+    title: "Integrating Behaviour Based Decisions into Frenet Frame Planner",
+    summary: "Smooth trajectory generation for autonomous driving using CARLA",
+    date: "Dec 2020",
+    tags: ["Robotics", "SLAM", "Path Planning", "Autonomous Systems"],
+    image: "/images/iiith-robotics/featured.png",
+    category: "Robotics",
+    featured: true,
+    links: [
+      {
+        type: "report",
+        url: "https://drive.google.com/file/d/1WOCkFAWX5HAyXB2zB4Gka5_uoAHad86J/view?usp=sharing"
+
+      }
+    ]
+  },
+  {
     id: "ceeri_uav_navigation",
     title: "Autonomous Navigation of UAVs using Reinforcement Learning",
     summary: "Developed an autonomous navigation system for UAVs in complex environments using reinforcement learning algorithms.",
@@ -61,12 +78,23 @@ export const projects: Project[] = [
     tags: ["Reinforcement Learning", "Autonomous Navigation", "Robotics"],
     image: "/images/ceeri_uav_navigation/featured.png",
     category: "Reinforcement Learning",
-    featured: false,
+    featured: true,
     links: [
       {
         type: "report",
         url: "https://drive.google.com/file/d/1WOCkFAWX5HAyXB2zB4Gka5_uoAHad86J/view?usp=drive_link"
       }
     ]
+  },
+  {
+    id: "trash-classification",
+    title: "Smart Trash Classification using Deep Learning",
+    summary: "Computer Vision model to classify different types of trash for efficient waste management.",
+    date: "April 2019",
+    tags: ["Computer Vision", "Deep Learning", "Image Classification"],
+    image: "/images/trash-classification/featured.png",
+    category: "Computer Vision",
+    featured: true,
+
   }
 ];
