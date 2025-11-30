@@ -83,7 +83,7 @@ const PublicationsSection: React.FC<PublicationsProps> = ({ publications }) => {
     });
   };
 
-  const formatAuthors = (authors: string[], currentAuthor: string = 'Neelabh Sinha') => {
+  const formatAuthors = (authors: string[], currentAuthor: string = 'Arpit Mittal') => {
     return authors.map((author, index) => (
       <span key={index}>
         {author === currentAuthor ? (

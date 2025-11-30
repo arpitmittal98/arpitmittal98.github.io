@@ -31,7 +31,9 @@ function AppContent() {
         <About personal={profileData.personal} />
         <EducationSection education={profileData.education} />
         <ExperienceSection experience={profileData.experience} />
-        <PublicationsSection publications={profileData.publications} />
+        {profileData.publications.length > 0 && (
+          <PublicationsSection publications={profileData.publications} />
+        )}
         <ProjectsSection projects={profileData.projects} />
         <SkillsSection skills={profileData.skills} />
         <CertificationsSection certifications={profileData.certifications} />

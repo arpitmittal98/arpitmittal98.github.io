@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# arpitmittal98.github.io
-Portfolio website
-=======
-# Neelabh Sinha - Personal Portfolio Website
+# Arpit Mittal - Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with React, TypeScript, and Vite. Features a clean design with smooth animations, dark/light theme support, and modular data management.
 

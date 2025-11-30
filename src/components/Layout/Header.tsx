@@ -133,17 +133,15 @@ const Header: React.FC = () => {
                   backgroundClip: 'text',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
-                  cursor: 'pointer',
-                }}
-                onClick={() => handleNavClick('#home')}
-              >
-                Neelabh Sinha
-              </Typography>
-            </motion.div>
-            
-            <Box sx={{ flexGrow: 1 }} />
-            
-            {!isMobile && (
+                cursor: 'pointer',
+              }}
+              onClick={() => handleNavClick('#home')}
+            >
+              Arpit Mittal
+            </Typography>
+          </motion.div>
+          
+          <Box sx={{ flexGrow: 1 }} />            {!isMobile && (
               <motion.div
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
