@@ -71,7 +71,7 @@ export const experience: Experience[] = [
     description: [
       "Improved the efficiency of the YOLO Object Detection Algorithm.",
       "Optimized the algorithm to work in Real-Time for Car Detection."
-    ]
+    ],
     companyUrl: "https://www.iitb.ac.in/en/",
     companyLogo: "https://en.wikipedia.org/wiki/IIT_Bombay#/media/File:Indian_Institute_of_Technology_Bombay_Logo.svg"
   }

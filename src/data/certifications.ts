@@ -24,7 +24,7 @@ export const certifications: Certification[] = [
     date: "2020-11-05",
     url: "https://www.skills.google/public_profiles/409fcdf4-c82b-49db-8ae9-9c1b7653fb96",
     icon: "google"
-  }
+  },
   {
     id: "deep-learning-specialization",
     title: "Deep Learning Specialization",
