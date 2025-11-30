@@ -95,6 +95,6 @@ export const projects: Project[] = [
     image: "/images/trash-classification/featured.png",
     category: "Computer Vision",
     featured: true,
-
+    links: []
   }
 ];
