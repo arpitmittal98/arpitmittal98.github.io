@@ -42,7 +42,7 @@ export const projects: Project[] = [
     title: "Research Paper Recommendation System",
     summary: "A recommendation system that suggests research papers based on user interests and reading history using collaborative filtering techniques.",
     date: "Oct 2024",
-    tags: ["Natural Language Processing", "Machine Learning", "Deep Learning", "Large Language Models"],
+    tags: ["Natural Language Processing", "Deep Learning", "Large Language Models"],
     image: "/images/papersphere/featured.png",
     category: "Natural Language Processing",
     featured: true,
@@ -95,6 +95,11 @@ export const projects: Project[] = [
     image: "/images/trash-classification/featured.png",
     category: "Computer Vision",
     featured: true,
-    links: []
+    links: [
+      {
+        type: "slides",
+        url: "https://docs.google.com/presentation/d/1Ee2Pdom9W0Qo9jJWuRrwScWoWe32w7-m/edit?usp=drive_link&ouid=113543193746440620282&rtpof=true&sd=true"
+      }
+    ]
   }
 ];

@@ -220,9 +220,9 @@ const ContactSection: React.FC<ContactProps> = ({ personal, contact }) => {
                       </IconButton>
                     </motion.div>
 
-                    {/* LinkedIn from social */}
+                    {/* Resume and LinkedIn from social */}
                     {personal.social.filter(social => 
-                      social.platform === 'linkedin'
+                      social.platform === 'linkedin' || social.platform === 'resume'
                     ).map((social, index) => (
                       <motion.div
                         key={social.platform}
@@ -260,14 +260,88 @@ const ContactSection: React.FC<ContactProps> = ({ personal, contact }) => {
                   </Stack>
                 </motion.div>
 
-                <motion.div
-                  initial={{ y: 50, opacity: 0 }}
-                  animate={inView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                >
-                </motion.div>
+                {contact.calendly && (
+                  <motion.div
+                    initial={{ y: 50, opacity: 0 }}
+                    animate={inView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
+                    transition={{ duration: 0.5, delay: 0.8 }}
+                  >
+                    <Box sx={{ mt: 4 }}>
+                      <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                        Or schedule a meeting
+                      </Typography>
+                      <IconButton
+                        component="a"
+                        href={contact.calendly}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{
+                          backgroundColor: theme.palette.primary.main,
+                          color: 'white',
+                          px: 4,
+                          py: 1.5,
+                          borderRadius: 2,
+                          fontSize: '0.95rem',
+                          fontWeight: 500,
+                          '&:hover': {
+                            backgroundColor: theme.palette.primary.dark,
+                            transform: 'translateY(-2px)',
+                            boxShadow: theme.shadows[8],
+                          },
+                          transition: 'all 0.3s ease',
+                        }}
+                      >
+                        📅 Book a Meeting
+                      </IconButton>
+                    </Box>
+                  </motion.div>
+                )}
               </CardContent>
             </Card>
+          </motion.div>
+
+          {/* Embedded Resume Section */}
+          <motion.div variants={fadeInUp}>
+            <Box sx={{ mt: 6 }}>
+              <Typography
+                variant="h4"
+                component="h3"
+                align="center"
+                gutterBottom
+                sx={{
+                  fontWeight: 600,
+                  mb: 3,
+                  color: theme.palette.text.primary,
+                }}
+              >
+                My Resume
+              </Typography>
+              <Card
+                elevation={0}
+                sx={{
+                  backgroundColor: theme.palette.background.paper,
+                  border: `1px solid ${theme.palette.divider}`,
+                  borderRadius: 3,
+                  overflow: 'hidden',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '100%',
+                    height: { xs: '500px', md: '800px' },
+                    position: 'relative',
+                  }}
+                >
+                  <iframe
+                    src={personal.social.find(s => s.platform === 'resume')?.url.replace('/view?usp=sharing', '/preview')}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 'none' }}
+                    title="Resume"
+                  />
+                </Box>
+              </Card>
+            </Box>
           </motion.div>
         </motion.div>
       </Container>

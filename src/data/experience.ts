@@ -3,15 +3,16 @@ import type { Experience } from '../types';
 export const experience: Experience[] = [
   {
     id: "nutanix-mts2",
-    position: "Member of Technical Staff Inten",
+    position: "Member of Technical Staff Intern",
     company: "Nutanix, Inc.",
     location: "San Jose, CA, USA",
     startDate: "May 2025",
-    endDate: "Present",
+    endDate: "Dec 2025",
     current: true,
     description: [
-      "Developing an AI code-review agent that scans and provides reviews for 200+ enterprise-level pull requests weekly",
-      "Developing integrations to enhance inference in an enterprise AI offering"
+      "Developed LLM-based agents and retrieval systems to automate root-cause analysis at enterprise scale",
+      "Built and optimized ML engineering components including data pipelines, inference integrations, and evaluation tooling",
+      "Experimented with prompt strategies, RAG architectures, and orchestration frameworks (LangChain, LangGraph) to improve reliability and response quality of production-facing AI agents"
     ],
     companyUrl: "https://www.nutanix.com/company",
     companyLogo: "https://www.sansonetworks.com/images/products/img-nutanix.jpg"
@@ -27,7 +28,7 @@ export const experience: Experience[] = [
       "Designing methodologies to identify and mitigate biases in textual data using NLP methods, agent-based strategies and socio-cognitive theories",
       "Optimized data pipeline by iteratively masking text attributes to assess their impact on gender prediction accuracy"
     ],
-    companyLogo: "/images/104-UB-Stacked-RGB-Blue.png",
+    companyLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/University_at_Buffalo_logo.svg/330px-University_at_Buffalo_logo.svg.png",
     companyUrl: "https://cse.buffalo.edu/cubelab/"
   },
   {
@@ -58,7 +59,7 @@ export const experience: Experience[] = [
       "Built a real-time JavaScript GUI for doctors to visualize model predictions during endoscopy",
       "Enhanced YOLOv5 detection system with augmentation and ensembling in PyTorch, achieving mAP over 75%"
     ],
-    companyLogo: "https://avatars.githubusercontent.com/u/2951919?s=280&v=4",
+    companyLogo: "/images/endovision.jpg",
     companyUrl: "https://endovisionai.com/"
   },
   {
@@ -73,6 +74,6 @@ export const experience: Experience[] = [
       "Optimized the algorithm to work in Real-Time for Car Detection."
     ],
     companyUrl: "https://www.iitb.ac.in/en/",
-    companyLogo: "https://en.wikipedia.org/wiki/IIT_Bombay#/media/File:Indian_Institute_of_Technology_Bombay_Logo.svg"
+    companyLogo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/320px-Indian_Institute_of_Technology_Bombay_Logo.svg.png"
   }
 ];

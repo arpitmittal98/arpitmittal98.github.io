@@ -47,7 +47,7 @@ const navigationItems = [
   { label: 'About', href: '#about' },
   { label: 'Education', href: '#education' },
   { label: 'Experience', href: '#experience' },
-  { label: 'Publications', href: '#publications' },
+  // { label: 'Publications', href: '#publications' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
